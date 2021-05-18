@@ -25,3 +25,6 @@ adjusted_p.m
 
 3. return: Friedman test, p value without adjusted, adjusted p value by  Hommel procedure at 0.05 significance level, please note that **the first column must the control method**!
 
+## How to do Wilcoxon rank sum with 0.05 significance?
+1. save result vector of 20 independet runs, e.g. x=[run1, run2,..., run20]' (column vector), y=[b_run1, b_run2,...,run20]'
+2. matlab: [p, h]=ranksum(x, y, 0.05), if h=0, no significant difference, else if h=1, significant difference.
