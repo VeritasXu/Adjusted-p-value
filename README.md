@@ -1,6 +1,8 @@
 # Adjusted-p-value
 Matlab code for algorithm performance comparison: Friedman test and adjusted p value by Hommel procedure
 
+![illustration](D:\Github_clone\Adjusted-p-value\illustration.gif)
+
 ## Main file
 
 adjusted_p.m
