@@ -11,7 +11,7 @@ adjusted_p.m
 
 ## How to run
 
-1. import your data matrix, for example, cal.xlsx as the **matrix** cal, not table!
+1. import your data matrix, for example, cal.xlsx as the **matrix** cal, not table! **And Note that Matlab always think the first row is the header!**
 
    - row: test problems
 
